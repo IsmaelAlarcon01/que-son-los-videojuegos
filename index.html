@@ -2,36 +2,39 @@
 <html lang="">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<title>Los Videojuegos</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
+			<ul class="nav__ul">
+				<li class="inicio"><a href="index.html">Inicio</a></li>
+					<li class="contact"><a href="contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
-
-	<div>
-		<h1>VideoJuegos</h1>
-
-		<p>
-			En este sitio web estaremos analizando varios temas sobre videojuegos, estaremos viendo como: ¿Que son?, tipos de videojuegos, los videojuegos mas populares, entre otros temas. Si tienes algun VideoJuego favorito puedes comentarlo hasta abajo en la sección de comentarios y ver si alguien mas tiene tus mismos gustos.
-		</p>
+	
+	<div class="div__h1">
+	<h1>VideoJuegos</h1>
 	</div>
 
-	<div>
-		<h3>Indice</h3>
-		<ul>
+
+	<div class="div__h3-indice">
+		<h3 class="h3__indice">Indice</h3>
+		<ul class="indice__ul">
 			<li><a href="#queson">¿Que son?</a></li>
 			<li><a href="#tiposdv">Tipos de Videojuegos</a></li>
-			<li><a href="#juegosmp">Videouegos mas populares</a></li>
+			<li><a href="#juegosmp">Videojuegos mas populares</a></li>
+			<li><a href="#consolas">Consolas para Videojuegos</a></li>
 		</ul>
 	</div>
 
-	<div>
+	<div class="div__h2-queson">
 		<h2 id="queson">¿Que son los videojuegos?</h2>
 		<p>
 			Un videojuego es una aplicación interactiva orientada al entretenimiento que, a través de ciertos mandos o controles, permite simular experiencias en la pantalla de un televisor, una computadora u otro dispositivo electrónico.
@@ -43,10 +46,10 @@
 		<img src="Imagenes/juegos1.png" height="500px" width="800px">
 	</div>
 
-	<div>
+	<div class="div__h2-tiposdv">
 		<h2 id="tiposdv">Tipos de videojuegos</h2>
 		<p>
-			Existen muchos tipos de Videojuegos y a continuación veremos los mas populares:
+			Existen muchos tipos de Videojuegos y a continuación veremos los mas populares:<br><br>
 		</p>
 		<ul>
 			<li><b>Acción:</b> Se ha popuralizado por sus tematicas que son de lucha y peleas. Basados en ejercicios de repetición (por ejemplo, pulsar un botón para que el personaje ejecute una acción).</li>
@@ -69,7 +72,7 @@
 		</ul>
 	</div>
 
-	<div>
+	<div class="div__h2-juegosmp">
 		<h2 id="juegosmp">Videojuegos mas populares</h2>
 		<p>A continuación ordenaremos algunos de los videojuegos mas populares por cada epoca:</p>
 		<h3>Año 1990-2000:</h3>
@@ -122,6 +125,10 @@
 			<br><img src="Imagenes/reddeadredemption2.png" height="500px" width="800px">
 		</ul>
 		<p>Esta decada nos trajo sin duda muchos titulos de videojuegos buenos, ademas de que es la decada en que se revolucionaron los videojuegos, porque nos dieron nuevas formas de verlos, y unos graficos mejores.</p>
+	</div>
+
+	<div>
+		<h2 id="consolas">Consolas para videojuegos</h2>
 	</div>
 	
 </body>

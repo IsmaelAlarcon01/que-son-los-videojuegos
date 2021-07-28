@@ -1,0 +1,107 @@
+*	{
+	font-family: 'Press Start 2P', cursive;
+}
+
+/*Nav style*/
+
+header  {
+	background-color: #00DFA5;
+	border: 10px solid #747474;
+	font-size: 20px;
+}
+
+/*Nav options*/
+
+.nav__ul	{
+	display: inline-block;
+	padding: 10px;
+}
+
+/*Inicio*/
+.inicio	{
+	display: inline-block;
+}
+
+.inicio a  {
+	text-decoration: none;
+	color: #EEEEEE;
+}
+
+/*contact*/
+.contact  {
+	display: inline-block;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #EEEEEE;
+}
+
+/*Title H1 style*/
+
+.div__h1	{
+	background-color: #008AC6;
+	border: 10px solid black;
+	font-size: 2em;
+	height: 100vh;
+}
+
+h1	{
+	color: #E7E7E7;
+	text-align: center;
+	padding-top: 230px;
+}
+
+/*Indice Style*/
+
+.div__h3-indice	{
+	background-color: grey;
+	border: 10px solid black;
+}
+
+.h3__indice	{
+	color: red;
+}
+
+.indice__ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Que son Style*/
+
+.div__h2-queson	{
+	background-color: #8000E4;
+	border: 10px solid black;
+
+}
+
+h2  {
+	color: #DADE00;
+}
+
+p  {
+	color: white;
+}
+
+li b  {
+	color: #00DE2C;
+}
+
+li  {
+	color: white;
+}
+
+/*Tipos de videojuegos Style*/
+
+.div__h2-tiposdv	{
+	background-color: #8000E4;
+	border: 10px solid black;
+}
+
+/*Juegos mas populares Style*/
+
+.div__h2-juegosmp	{
+	background-color: #8000E4;
+	border: 10px solid black;
+}
